@@ -1,7 +1,10 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #1F2937;
     color: white;
@@ -10,10 +13,13 @@ body {
 header {
     display: flex;
     align-items: center;
-    /* border: solid 2px black; */
     gap: 32px;
-    padding: 0 32px 0 32px;
-    background-color: bisque;
+    /* background-color: bisque; */
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .row {
@@ -23,20 +29,79 @@ header {
 
 .logo {
     flex: 1;
-    /* border: solid 4px red */
 }
 
 .logo img {
     width: 100px;
+    margin: 16px 0 16px 0;
 }
 
 .hero-main-text {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    width: 400px;
+    margin-top: 128px;
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+    width: 450px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* background-color: rgb(40, 58, 52); */
+    margin-bottom: 128px;
+}
+
+.hero img {
+    width: 38%;
+}
+
+.hero button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 8px 16px 8px 16px;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    margin-top: 8px;
+}
+
+.hero button:hover {
+    background-color: #2657a7;
+    cursor: pointer;
+}
+
+.second-section {
+    background-color: #F9FAF8;
+}
+
+.second-section p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 32px;
+}
+
+.second-section img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.set-of-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.set-of-images p {
+    font-size: 18px;
+    color: #1f2947;
 }
