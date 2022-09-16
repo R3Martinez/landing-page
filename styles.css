@@ -14,12 +14,11 @@ header {
     display: flex;
     align-items: center;
     gap: 32px;
-    /* background-color: bisque; */
 }
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #fff;
 }
 
 a:hover {
@@ -43,14 +42,15 @@ a:hover {
 .hero-main-text {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
+    color: #fff;
     width: 400px;
     margin-top: 128px;
 }
 
 .hero-secondary-text {
     font-size: 18px;
-    color: #e5e7eb;
+    font-weight: 300;
+    color: #dddddd;
     width: 450px;
 }
 
@@ -69,8 +69,8 @@ a:hover {
 .hero button {
     background-color: #3882F6;
     font-size: 18px;
-    color: #e5e7eb;
-    padding: 4px 16px 4px 16px;
+    color: #fff;
+    padding: 8px 32px 8px 32px;
     border-radius: 10px;
     display: inline-block;
     border: none;
@@ -114,7 +114,7 @@ a:hover {
     margin-bottom: 64px;
     font-size: 18px;
     font-weight: 300;
-    color: #3f465d;
+    color: #1F2937;
 }
 
 .third-section {
@@ -122,6 +122,7 @@ a:hover {
 }
 
 .third-section p {
+    font-style: italic;
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
@@ -130,6 +131,7 @@ a:hover {
 }
 
 .quote p {
+    font-style: normal;
     padding: 0;
     font-size: 24px;
     font-weight: bold;
@@ -147,20 +149,21 @@ a:hover {
 
 .call-to-action .row p {
     font-size: 24px;
+    color: #fff;
 }
 
 #second-p {
-    color: #cccccc;
+    color: #dddddd;
     font-size: 18px;
     font-weight: 300;
 }
 
 .box button {
-    border: 2px solid #e5e7eb;
+    border: 2px solid #fff;
+    color: #fff;
     background-color: #3882F6;
     font-size: 18px;
-    color: #e5e7eb;
-    padding: 4px 16px 4px 16px;
+    padding: 8px 32px 8px 32px;
     border-radius: 10px;
 }
 
@@ -171,4 +174,10 @@ a:hover {
     background-color: #3882F6;
     border-radius: 10px;
     padding: 32px 128px 32px 128px;
+}
+
+footer {
+    color: #dddddd;
+    text-align: center;
+    padding: 32px;
 }
