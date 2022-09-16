@@ -22,6 +22,10 @@ a {
     color: #F9FAF8;
 }
 
+a:hover {
+    color: #b2b2b2;
+}
+
 .row {
     width: 1000px;
     margin: 0 auto;
@@ -101,7 +105,14 @@ a {
     flex-wrap: wrap;
 }
 
+.set-of-images .item {
+    width: 200px;
+}
+
 .set-of-images p {
+    padding: 0;
+    margin-bottom: 64px;
     font-size: 18px;
-    color: #1f2947;
+    font-weight: 300;
+    color: #3f465d;
 }
